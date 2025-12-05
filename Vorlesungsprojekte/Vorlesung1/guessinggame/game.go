@@ -11,6 +11,13 @@ func GuessingGame() {
 			fmt.Println("Richtig geraten! :-)")
 			return
 		}
+		if guess < correct {
+			fmt.Println("Die Zahl ist größer als deine Zahl")
+		} else {
+			fmt.Println("Die Zahl ist kleiner als deine Zahl")
+
+		}
+
 
 	}
 	fmt.Println("Zu viele falsche Zahlen! :-(")
