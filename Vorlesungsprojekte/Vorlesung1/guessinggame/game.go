@@ -6,7 +6,6 @@ import "math/rand/v2"
 func GuessingGame() {
 	correct := rand.IntN(100)
 	for n := 0; n < 3; n++ {
-
 		guess := ReadNumber()
 		if NumberGood(guess, correct) {
 			fmt.Println("Richtig geraten! :-)")

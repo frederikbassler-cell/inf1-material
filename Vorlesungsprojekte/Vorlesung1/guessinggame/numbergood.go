@@ -1,5 +1,9 @@
 package guessinggame
 
 func NumberGood(number, c int) bool {
-	return number == 4
+    if c == number {
+        return true
+    } else {
+        return false
+    }
 }
