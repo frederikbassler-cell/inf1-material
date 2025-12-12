@@ -1,0 +1,7 @@
+i = i + 1 oder i++ oder i += 1 für addieren 
+Ungleich: !=
+Modulo: %  gibt den rest aus von einer Teilung
+Geteilt: /
+Schleife abbrechen: break
+Beenden der Funktion: return
+
