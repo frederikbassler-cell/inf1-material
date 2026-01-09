@@ -14,4 +14,3 @@ func main() {
 	fmt.Println(calculator.IsSquareNumber(16))
 	calculator.DemoCollections()
 }
-
