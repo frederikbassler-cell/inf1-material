@@ -5,3 +5,6 @@ Geteilt: /
 Schleife abbrechen: break
 Beenden der Funktion: return
 
+Liste: []int Es kommt eine Liste
+
+[5] = ist ein array weil ist eine festgelegte Liste
