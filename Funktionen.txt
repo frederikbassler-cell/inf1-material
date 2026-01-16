@@ -8,3 +8,11 @@ Beenden der Funktion: return
 Liste: []int Es kommt eine Liste
 
 [5] = ist ein array weil ist eine festgelegte Liste
+
+Keine Funktion aber Verfahrer:
+
+Bubble Sort: Dauer(n^2) = Ein Algorithmus, der wie Blasen im Wasser das größte Element schrittweise nach oben (bzw. ans Ende) befördert. = (Es ist ein einfacher Tausch-Algorithmus; er läuft immer wieder durch die Liste, vergleicht direkt benachbarte Zahlen und tauscht sie, falls die linke größer ist als die rechte, bis keine Tausche mehr nötig sind.)
+Selection Sort: Dauer(n^2) = Ein Verfahren, das die Liste in einen fertigen und einen unfertigen Teil trennt und immer das kleinste verbleibende Element "auswählt". = (Es ist ein Such-und-Tausch-Algorithmus; er durchsucht den gesamten unsortierten Rest der Liste nach dem Minimum und tauscht dieses dann an die erste Position des unsortierten Bereichs, sodass der sortierte Teil langsam wächst.)
+Insertion Sort: Dauer(n^2) = Eine Methode, die funktioniert wie das Sortieren von Spielkarten auf der Hand, indem man neue Elemente direkt an die richtige Stelle "einschiebt". = (Es ist ein Einsortier-Algorithmus; er nimmt sich das nächste Element aus dem unsortierten Bereich, vergleicht es rückwärts mit den bereits sortierten Elementen und schiebt es genau dort dazwischen, wo es der Größe nach hingehört.)
+Quick Sort: Dauer(n^2) = Ein sehr schneller "Teile-und-Herrsche"-Algorithmus, der eine Liste anhand eines Vergleichselements (Pivot) in "kleiner" und "größer" aufteilt. = (Es ist ein rekursiver Algorithmus; er wählt ein Pivot-Element, verschiebt alle kleineren Zahlen nach links und alle größeren nach rechts davon und wendet dieses Verfahren dann erneut auf die beiden Hälften an.)
+Merge Sort: Dauer(n * log(n)) = Ein stabiler "Teile-und-Herrsche"-Algorithmus, der eine Liste immer weiter halbiert und die Teilstücke dann sortiert wieder zusammenfügt ("mergt"). = (Es ist ein rekursiver Algorithmus; er teilt die Liste in der Mitte so lange auf, bis nur noch Einzelteile übrig sind, und setzt diese dann in richtiger Reihenfolge Schritt für Schritt wieder zu einer sortierten Gesamtliste zusammen.)

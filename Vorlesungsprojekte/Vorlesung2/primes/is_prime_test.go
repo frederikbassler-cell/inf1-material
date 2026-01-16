@@ -2,7 +2,7 @@ package primes
 
 import "fmt"
 
-func EcampleIsPrime() {
+func ExampleIsPrime() {
 fmt.Println(IsPrime(1))
 fmt.Println(IsPrime(2))
 fmt.Println(IsPrime(3))
@@ -36,7 +36,7 @@ fmt.Println(IsPrime(12))
 
 
 func ExamplePrimes() {
-	fmt.Println(Primes())
+	fmt.Println(Primes(2))
 
 	//Output: 
 	//[2 3 5 7]
