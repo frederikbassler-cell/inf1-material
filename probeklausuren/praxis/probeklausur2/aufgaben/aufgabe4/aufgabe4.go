@@ -14,6 +14,37 @@ package aufgabe4
 // Für leere Listen soll für die Berechnung ggf. 0 verwendet werden.
 func ElementSums(l1, l2 []int) []int {
 	result := []int{}
-	// TODO
+	summe := 0
+	longest := []int{}
+
+	if len(l1) > len(l2) {
+		longest = l1
+	} else {
+		longest = l2
+	}
+
+for i := 0; i < len(longest); i++ {
+
+
+		if len(l1) == 0 {
+			summe = 0 + l2[i]
+		} else if len(l2) == 0 {
+			summe = l1[i] + 0
+
+		
+		} else if len(l1) < i+1 {
+			summe = l2[i] + l1[len(l1)-1]
+
+		} else if len(l2) < i+1 {
+			summe = l1[i] + l2[len(l2)-1]
+
+		
+		} else {
+			summe = l1[i] + l2[i]
+		}
+
+		result = append(result, summe)
+	}
+
 	return result
 }
