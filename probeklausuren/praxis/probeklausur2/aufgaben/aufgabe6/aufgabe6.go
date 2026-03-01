@@ -12,6 +12,21 @@ package aufgabe6
 // ins Ergebnis übertragen werden.
 func DuplicateSinglets(list []int) []int {
 	result := []int{}
-	// TODO
+	for _, el := range list {
+		result = append(result, el)
+		if Count(list, el) == 1 {
+			result = append(result, el)
+		}
+	}
+	return result
+}
+
+func Count(list []int, x int) int {
+	result := 0
+	for _, el := range list {
+		if el == x {
+			result++
+		}
+	}
 	return result
 }

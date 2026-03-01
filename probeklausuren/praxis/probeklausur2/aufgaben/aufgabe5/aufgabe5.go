@@ -10,7 +10,21 @@ MAX. PUNKTE: 10
 // de und ersetzt dessen En-Wert mit dem gegebenen en.
 // Gibt es mehrere solche Einträge, soll nur der erste ersetzt werden.
 func ReplaceEn(dict []Entry, de, en string) {
-	// TODO
+	count := 0
+	if len(dict) == 0 {
+		return
+	}
+	for i := range dict {
+		if count == 0 {
+			if dict[i].De == de {
+				dict[i].En = en
+				count++
+			}
+		}
+
+	}
+
+	return
 }
 
 // Entry repräsentiert einen Eintrag in einem Wörterbuch
